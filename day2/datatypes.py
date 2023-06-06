@@ -24,7 +24,7 @@ print(type(t))
 e="b"
 print(type(e))
 g="34.8"
-print(type)
+print(type(g))
 #SET
 #Set are group of items in in double circular bracket and they are unordered 
 #Exaples of set are as follows

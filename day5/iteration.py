@@ -1,40 +1,45 @@
-#Iteration
-#It simply means looping and looping is a way we can make a program repeat itself over again until a condition is reached.
-#They are of two types ( for loop and while loop)
-#For loop
-# For loop it loops items sequentially eg item in a tuple, list, dict, set, range
-# fruits = ["mango", "orange", "udara", "Ube" ]
-# for fruit in fruits:
-#     print(fruit)
-# dicts = {
-#     1:"ONE",
-#     2:"TWO",
-#     3:"THREE",
-#     4:"TWFOURFOUO"
+# # n = 10 
+# # if n % 2 == 0:
+# #     print( " n is even number")
+# # num1 = [1,2,3,4,5,6,7,8,9] 
+# # for num in num1 :
+# #     if num % 2 ==0:
+# #         print(num1)
+# # Nested if
+# a = 5
+# b = 8
+# c = 4
+# if a < b :
+#     if a > c:
+#         print ( " A is bigger")
+#     else :
+#         print ( " c is bigger ")
 
-# }
-# for num in dicts.values():
-#     print(num)
-#While loop
-# num1 = 10
-# num2 = 0
-# while num2 < num1:
-#     num2 += 2
-#     print(num2)
+    
+# elif b > c: 
+#     print (" b value is bigger ")
+# else :
+#     print ( " c is bigger")
 
-# num3 = 50
-# num4 = 2
+# # if elif else 
+# x = 45
+# y =3
+# if x>y:
+    
 
-# while num4 < num3:
-#     num4 *= 5
-#     print(num4)
+#     print (" y is bigger")
 
-# num5 = int(input("enter a number to multiply"))
-# num6 = 1
-# while num6 <= 12:
-#     print(f"{num5} x {num6} = {num5 * num6}")
-#     num6 +=1
-help("keywords")
+# elif x==y:
+#     print( ' Both are equal')
+# else:
+#     print ( " non is equal")
+# For loop 
+list = [ 1, 2, 3, 4, 5]
+for i in range(len(list)):
+    print(list[i], end = '')
 
+
+
+    
 
 

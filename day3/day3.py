@@ -12,7 +12,7 @@ items in a list can be changed while items in a tuple cant be changed
 list methods or methods in a list
 """
 #pop
-# it used to delete na item in a list by its index
+# its used to delete an item in a list by its index
 # base=["chike", "mazi", "okeke"]
 # base.pop(2)
 # print(base)
@@ -25,6 +25,6 @@ list methods or methods in a list
 
 base=["chike", "mazi", "okeke",1,2,3,4,5,6,7.8,8,9,5,6,4,3,5,]
 
-# base.sort(key=len)
-# print(base.count(1))
-print(len(base))
+base.sort(key=len)
+print(base.count(1))
+print((base))
